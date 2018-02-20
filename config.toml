@@ -210,5 +210,5 @@ canonifyurls = true
   #   url = "/#about"
 
   # Customize copyright value "© 2017 <CUSTOMIZATION>. All Rights Reserved"
-  # [params.footer]
-  #   copyright = "<a href=\"https://github.com/kakawait\">kakawait</a>"
+   [params.footer]
+     copyright = "<a href=\"https://github.com/ca2ju3\">蔡钧</a> <a href=\"http://ca2ju3.coding.me\"><img src=\"/images/China.png\" /></a>"
