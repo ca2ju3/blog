@@ -22,7 +22,8 @@ tags:
 我推荐使用第三种方式。
 [源码包](https://github.com/gohugoio/hugo/releases)
 
-
+# 使用
+参考, [Hugo静态网站生成器中文教程](http://nanshu.wang/post/2015-01-31/)
 
 # 搭建过程中，遇到的问题
 ## 为什么没有生产public文件夹
