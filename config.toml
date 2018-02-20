@@ -34,7 +34,7 @@ canonifyurls = true
   name = "I'm 蔡钧."
   bio = "<p>我是一个超过10年工作经验的大城市外来务工人员，擅长搬砖，码墙！</p>"
   job = "Hello world!"
-  location = "China"
+  location = "Canton, China"
   # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
   # gravatarEmail = "ca2ju3@gmail.com"
   # Your profile picture
