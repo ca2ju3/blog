@@ -95,7 +95,7 @@ canonifyurls = true
     identifier = "WeChat"
     name = "WeChat"
     pre = "<i class=\"sidebar-button-icon fa fa-lg fa-weixin\"></i>"
-    url = "#wechat"
+    url = "wechat"
 
   [[menu.misc]]
     weight = 1
