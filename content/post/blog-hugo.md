@@ -1,6 +1,6 @@
 ---
 title: "用Hugo建立自己的博客"
-disqusIdentifier: hugoblog
+disqusIdentifier: fdsF34ff77
 date: 2018-02-17
 categories:
 - tech
@@ -39,6 +39,7 @@ hugo --buildDrafts
 
 ## 为什么使用hugo生成博客的过程中，生成的是xml文件，而不是html文件
 使用hugo生成博客，如果不制定theme的话，那么hugo只会生成xml文件。解决的方式有两种，
+
 * 一种是使用hugo命令的时候，带上参数 -t 如下，
 
 ```shell
