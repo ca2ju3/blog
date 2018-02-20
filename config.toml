@@ -32,7 +32,7 @@ canonifyurls = true
 
 [author]
   name = "I'm 蔡钧."
-  # bio = "<p>我是一个超过10年工作经验的城市务工人员，擅长搬砖，码墙！"
+  bio = "<p>我是一个超过10年工作经验的大城市外来务工人员，擅长搬砖，码墙！</p>"
   job = "Hello world!"
   location = "China"
   # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
