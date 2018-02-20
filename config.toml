@@ -199,9 +199,9 @@ canonifyurls = true
     url = "https://www.facebook.com/sharer/sharer.php?u=%s"
 
   [[params.sharingOptions]]
-    name = "Twitter"
-    icon = "fa-twitter"
-    url = "https://twitter.com/intent/tweet?text=%s"
+    name = "微博"
+    icon = "fa-weibo"
+    url = "http://service.weibo.com/share/share.php?title=%s"
 
   [[params.sharingOptions]]
     name = "Google+"
