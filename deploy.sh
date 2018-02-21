@@ -53,7 +53,7 @@ git push origin master
 cp ~/blog/config/config.toml.github ./config.toml
 
 # Go To Public folder
-cd ~/blog/blog/public
+cd ~/blog/blog
 
 # Build the project.
 hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
