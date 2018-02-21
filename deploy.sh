@@ -56,11 +56,14 @@ cp ~/blog/config/config.toml.github ./config.toml
 # Prepare CNAME for github.io
 cp ~/blog/config/CNAME ~/blog/blog/public/
 
-# Go To Public folder
+# Go To Blog folder
 cd ~/blog/blog
 
 # Build the project.
 hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
+
+# Go To Public folder
+cd ~/blog/blog/public
 
 # Add changes to git.
 git add -A
