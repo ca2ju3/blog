@@ -9,14 +9,14 @@ if [ $# -eq 1 ]
   then msg="$1"
 fi
 
+# Back up files
+cp ~/blog/blog /tmp/ -r
+cp ~/blog/ca2ju3.coding.me /tmp/ -r
+
 # Push Hugo content
 git add -A
 git commit -m "$msg"
 git push origin master
-
-# Back up files
-cp ~/blog/blog /tmp/ -r
-cp ~/blog/ca2ju3.coding.me /tmp/ -r
 
 # Prepare config.toml for coding.me
 cp ~/blog/config/config.toml.coding ./config.toml
@@ -52,11 +52,12 @@ git push origin master
 # Prepare config.toml for coding.me
 cp ~/blog/config/config.toml.github ./config.toml
 
+# Go To Public folder
+cd ~/blog/blog/public
+
 # Build the project.
 hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
 
-# Go To Public folder
-cd ~/blog/blog/public
 # Add changes to git.
 git add -A
 
