@@ -10,8 +10,8 @@ if [ $# -eq 1 ]
 fi
 
 # Back up files
-cp ~/blog/blog /tmp/ -r
-cp ~/blog/ca2ju3.coding.me /tmp/ -r
+cp ~/blog/blog ~/backup/ -r
+cp ~/blog/ca2ju3.coding.me ~/backup/ -r
 
 # Push Hugo content
 git add -A
@@ -49,8 +49,10 @@ git commit -m "$msg"
 # Push source and build repos.
 git push origin master
 
-# Prepare config.toml for coding.me
+# Prepare config.toml for github.io
 cp ~/blog/config/config.toml.github ./config.toml
+# Prepare CNAME for github.io
+cp ~/blog/config/CNAME ~/blog/blog/public/
 
 # Go To Public folder
 cd ~/blog/blog
