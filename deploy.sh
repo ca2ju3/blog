@@ -9,16 +9,54 @@ if [ $# -eq 1 ]
   then msg="$1"
 fi
 
-# Push Hugo content 
+# Push Hugo content
 git add -A
 git commit -m "$msg"
 git push origin master
+
+# Back up files
+cp ~/blog/blog /tmp/ -r
+cp ~/blog/ca2ju3.coding.me /tmp/ -r
+
+# Prepare config.toml for coding.me
+cp ~/blog/config/config.toml.coding ./config.toml
+# Go To Public folder
+cd ~/blog/blog/public
+# Delete outdated files previously
+ls | grep -v .git* | xargs rm -rf
+# Go To coding.me folder
+cd ~/blog/ca2ju3.coding.me
+# Delete outdated files previously
+ls | grep -v .git* | xargs rm -rf
+
+# Go To Blog folder
+cd ~/blog/blog/
+
+# Build the project.
+hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
+
+# sync files to coding
+rsync --exclude=.git --exclude=CNAME ~/blog/blog/public/* ~/blog/ca2ju3.coding.me/ -rv
+
+# Go To coding.me folder
+cd ~/blog/ca2ju3.coding.me
+
+# Add changes to git.
+git add -A
+
+git commit -m "$msg"
+
+# Push source and build repos.
+git push origin master
+
+# Prepare config.toml for coding.me
+cp ~/blog/config/config.toml.github ./config.toml
 
 # Build the project.
 hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
 
 # Go To Public folder
-cd public
+cd ~/blog/blog/public
 # Add changes to git.
 git add -A
 

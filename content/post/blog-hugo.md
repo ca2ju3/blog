@@ -25,8 +25,14 @@ tags:
 # 使用
 参考, [Hugo静态网站生成器中文教程](http://nanshu.wang/post/2015-01-31/)
 
+# 部署到github.io
+*TODO*
+
+# 部署到coding.me
+*TODO*
+
 # 搭建过程中，遇到的问题
-## 为什么没有生产public文件夹
+## 为什么没有生成public文件夹
 
 ```shell
 hugo new file.md
@@ -49,4 +55,4 @@ hugo -t hyde
 * 另一种是将{theme}目录下的layout和static文件分别复制到根目录的layout和static
 
 ## hugo i18n: no such file or directory
-这个主要是由于缺失语言文件，需要将{theme}目录下的i18n复制到跟目录。
+这个主要是由于缺失语言文件，需要将{theme}目录下的i18n复制到根目录。
