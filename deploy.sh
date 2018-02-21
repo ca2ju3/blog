@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
+echo -e "\033[0;32mDeploying updates\033[0m"
 
 
 # Commit changes.
@@ -18,6 +18,7 @@ git add -A
 git commit -m "$msg"
 git push origin master
 
+echo -e "\033[0;32mDeploying updates to coding.me...\033[0m"
 # Prepare config.toml for coding.me
 cp ~/blog/config/config.toml.coding ./config.toml
 # Go To Public folder
@@ -49,6 +50,7 @@ git commit -m "$msg"
 # Push source and build repos.
 git push origin master
 
+echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 # Prepare config.toml for github.io
 cp ~/blog/config/config.toml.github ./config.toml
 # Prepare CNAME for github.io
