@@ -50,14 +50,14 @@ git commit -m "$msg"
 # Push source and build repos.
 git push origin master
 
-echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
-# Prepare config.toml for github.io
-cp ~/blog/config/config.toml.github ./config.toml
-# Prepare CNAME for github.io
-cp ~/blog/config/CNAME ~/blog/blog/public/
-
 # Go To Blog folder
 cd ~/blog/blog
+
+echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
+# Prepare config.toml for github.io
+cp ~/blog/config/config.toml.github ~/blog/blog/config.toml
+# Prepare CNAME for github.io
+cp ~/blog/config/CNAME ~/blog/blog/public/
 
 # Build the project.
 hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
