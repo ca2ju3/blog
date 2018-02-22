@@ -10,8 +10,8 @@ if [ $# -eq 1 ]
 fi
 
 # Back up files
-cp ~/blog/blog ~/backup/ -r
-cp ~/blog/ca2ju3.coding.me ~/backup/ -r
+cp ~/blog/blog ~/backup/blog/`date` -r
+cp ~/blog/ca2ju3.coding.me ~/backup/ca2ju3.coding.me/`date` -r
 
 # Push Hugo content
 git add -A
