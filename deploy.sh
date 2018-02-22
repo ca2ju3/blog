@@ -2,7 +2,7 @@
 
 echo -e "\033[0;32mDeploying updates\033[0m"
 
-d = date "+%Y_%m_%d %H:%M:%S"
+d=date "+%Y_%m_%d %H:%M:%S"
 
 # Commit changes.
 msg="rebuilding site `date`"
