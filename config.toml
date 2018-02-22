@@ -97,6 +97,13 @@ canonifyurls = true
     pre = "<i class=\"sidebar-button-icon fa fa-lg fa-weixin\"></i>"
     url = "wechat"
 
+  [[menu.links]]
+    weight = 4
+    identifier = "mainland"
+    name = "国内"
+    pre = "<i class=\"sidebar-button-icon fa fa-lg fa-flag\"></i>"
+    url = "//ca2ju3.coding.me"
+
   [[menu.misc]]
     weight = 1
     identifier = "rss"
