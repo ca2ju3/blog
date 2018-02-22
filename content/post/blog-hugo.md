@@ -23,7 +23,12 @@ tags:
 [源码包](https://github.com/gohugoio/hugo/releases)
 
 # 使用
-参考, [Hugo静态网站生成器中文教程](http://nanshu.wang/post/2015-01-31/)
+
+我的博客使用的皮肤是[hugo-tranquilpeak-theme](https://github.com/kakawait/hugo-tranquilpeak-theme)
+
+网上实在太多教程了，我主要是参考这个文章, [Hugo静态网站生成器中文教程](http://nanshu.wang/post/2015-01-31/)
+
+这个博客是个人博客系统，主要目的是为了分享技术历程，因此在博客系统上只想快速搭建，快速上线。因此，会大量使用第三方的成熟功能和系统。
 
 # 部署到github.io
 使用Github Pages会有一些[限制](https://help.github.com/articles/what-is-github-pages/#usage-limits) ，我的博客估计长时间都会在这个限制的范围内，因此没有太多的顾虑。Github Pages有两种，一种是用户主页，一种是项目主页。这里说的都是用户主页，并且使用的是master分支。
