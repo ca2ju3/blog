@@ -29,9 +29,14 @@ tags:
 *TODO*
 
 # 部署到coding.me
-*TODO*
 
-由于github访问速度比较慢的原因，我将博客部署了一份到国内的coding.me。coding.me同样支持静态网页的部署，不过有个局限就是需要升级为银牌会员，才能支持自定义域名。
+由于github访问速度比较慢，我将博客部署了一份到国内的coding.me。coding.me同样支持静态网页的部署，不过有个局限就是需要升级为银牌会员，才能支持自定义域名。
+
+1. 新建一个项目，命名规则是{你的账号}.coding.me;
+
+2. 把public文件夹下面的文件提交到{你的账号}.coding.me这个项目。
+
+参考，[coding官方文档](https://coding.net/help/doc/pages/creating-pages.html)
 
 # 搭建过程中，遇到的问题
 ## 为什么没有生成public文件夹
