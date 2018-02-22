@@ -12,7 +12,7 @@
 # For developpers, if you modify this theme, put your images in `source/images` folder and
 # use grunt task `build` to synchronize assets
 
-baseURL = "//ca2ju3.coding.me/"
+baseURL = "//www.blueice.io/"
 languageCode = "en-us"
 defaultContentLanguage = "en-us"
 title = "蔡钧的博客"
@@ -70,7 +70,7 @@ canonifyurls = true
   name = "Archives"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-archive\"></i>"
   url = "/archives"
-#[[menu.links]]
+# [[menu.links]]
 #  weight = 5
 #  identifier = "about"
 #  name = "About"
@@ -99,10 +99,10 @@ canonifyurls = true
 
   [[menu.links]]
     weight = 4
-    identifier = "abroad"
-    name = "国外"
+    identifier = "mainland"
+    name = "国内"
     pre = "<i class=\"sidebar-button-icon fa fa-lg fa-flag\"></i>"
-    url = "//blueice.io"
+    url = "//ca2ju3.coding.me"
 
   [[menu.misc]]
     weight = 1
@@ -218,4 +218,4 @@ canonifyurls = true
 
   # Customize copyright value "© 2017 <CUSTOMIZATION>. All Rights Reserved"
    [params.footer]
-     copyright = "<a href=\"http://ca2ju3.coding.me\"><img src=\"/images/China.png\" /></a><a href=\"https://github.com/ca2ju3\">蔡钧</a><script async src=\"//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js\"></script><span id=\"busuanzi_container_site_pv\">本站总访问量<span id=\"busuanzi_value_site_pv\"></span>次</span>"
+     copyright = "<a href=\"http://ca2ju3.coding.me\"><img src=\"/images/China.png\" /></a><a href=\"https://github.com/ca2ju3\">蔡钧</a>    <script async src=\"//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js\"></script><span id=\"busuanzi_container_site_pv\">本站总访问量<span id=\"busuanzi_value_site_pv\"></span>次</span>"
