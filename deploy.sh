@@ -2,6 +2,7 @@
 
 echo -e "\033[0;32mDeploying updates\033[0m"
 
+d = date "+%Y_%m_%d %H:%M:%S"
 
 # Commit changes.
 msg="rebuilding site `date`"
@@ -10,8 +11,8 @@ if [ $# -eq 1 ]
 fi
 
 # Back up files
-cp ~/blog/blog ~/backup/blog/`date` -r
-cp ~/blog/ca2ju3.coding.me ~/backup/ca2ju3.coding.me/`date` -r
+cp ~/blog/blog ~/backup/blog/$d -r
+cp ~/blog/ca2ju3.coding.me ~/backup/ca2ju3.coding.me/$d -r
 
 # Push Hugo content
 git add -A
