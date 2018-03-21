@@ -1,6 +1,6 @@
 ---
 title: "用Hugo建立自己的博客"
-disqusIdentifier: fdsF34ff77
+disqusIdentifier: BLUEICE_BLOG_HUGO
 date: 2018-02-17
 categories:
 - tech
