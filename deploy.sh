@@ -1,5 +1,5 @@
 #!/bin/bash
-
+ 
 echo -e "\033[0;32mDeploying updates\033[0m"
 
 d=$(date +%Y%m%d-%H%M%S) 
