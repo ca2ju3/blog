@@ -1,6 +1,6 @@
 baseURL = "http://www.blueice.io/"
-languageCode = "zh-cn"
-defaultContentLanguage = "zh-cn"                             # en / zh-cn / ... (This field determines which i18n file to use)
+languageCode = "en"
+defaultContentLanguage = "en"                             # en / zh-cn / ... (This field determines which i18n file to use)
 title = "蔡钧的博客"
 enableRobotsTXT = true
 enableEmoji = true
