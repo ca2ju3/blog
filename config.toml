@@ -48,7 +48,7 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   url = "http://wpa.qq.com/msgrd?v=3&uin=1506567&site=qq&menu=yes"
 [[menu.main]]
   name = "wechat"
-  weight = 50
+  weight = 60
   identifier = "wechat"
   url = "/wechat/"
 
