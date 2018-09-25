@@ -70,14 +70,22 @@ coding.me同样支持静态网页的部署，不过有个局限就是需要升�
 # 博客评论
 
 一些评论系统在国内都上不了。最终选择的是gitment，站在巨人的肩膀上。不过，gitment要用起来比较坎坷。它将每个博文转换成，你设定好的的github repository里面的issue，评论就是对这个issue的comment。因此，会有一下几点，
+
 1. 要选择一个repository或者新建一个repository作为你的博客评论的载体；
 2. 每个博文需要[GitHub Setting](https://github.com/settings/developers)创建一个OAuth Apps，其中**Homepage URL
 **和**Authorization callback URL**都填写博客的url，如果是github page，URL应该是XXXX.github.io，如果是自己的域名，那么填写自己购买的域名；
 3. 将以上信息填写到config.toml对应的配置里面，有些theme可能没有内置gitment，那你就要自己折腾一下了；
 4. 访问自己的博客，这里最好是部署之后，访问真实的博客地址，而不是本地的localhost；
-5. 第一次访问，应该会出现Error: Comments Not Initialized，那是因为还没有在对应的repository里面创建跟博客相关的issue，建议步骤：a. 用chrome或者Firefox的隐身(incognito)窗口； b. 访问你自己的还没有初始化评论系统的博文； c. 点击评论区的github icon； d. 按照步骤，Have Fun，lol.
+5. 第一次访问，应该会出现Error: Comments Not Initialized，那是因为还没有在对应的repository里面创建跟博客相关的issue，建议步骤：a. 用chrome或者Firefox的隐身(incognito)窗口； b. 访问你自己的还没有初始化评论系统的博文； c. 点击评论区的github icon； d. 接着按照页面步骤。That's it. Have Fun，lol.
 
 在gitment的部署过程中，参考很多网上的文章，只遇到了上面这一个问题。
+
+# cdn
+This phase still remaining a lot of works have **TODO**,lol.
+
+[国内](https://zhuanlan.zhihu.com/p/28292763)
+
+[我自己用的cdn](cloudflare.com)
 
 
 
