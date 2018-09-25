@@ -81,7 +81,7 @@ coding.me同样支持静态网页的部署，不过有个局限就是需要升�
 在gitment的部署过程中，参考很多网上的文章，只遇到了上面这一个问题。
 
 # cdn
-This phase still remaining a lot of works have **TODO**,lol.
+This phase still remaining a lot of works have **TODO**, lol.
 
 [国内](https://zhuanlan.zhihu.com/p/28292763)
 
