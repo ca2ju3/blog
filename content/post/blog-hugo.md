@@ -24,7 +24,7 @@ tags:
 
 # 使用
 
-我的博客使用的皮肤是[hugo-tranquilpeak-theme](https://github.com/kakawait/hugo-tranquilpeak-theme)
+我的博客曾经使用的皮肤是[hugo-tranquilpeak-theme](https://github.com/kakawait/hugo-tranquilpeak-theme)，推荐[even](https://github.com/olOwOlo/hugo-theme-even)或者[NexT](https://github.com/xtfly/hugo-theme-next)，这两个都是小清新风格。
 
 网上实在太多教程了，我主要是参考这个文章, [Hugo静态网站生成器中文教程](http://nanshu.wang/post/2015-01-31/)
 
